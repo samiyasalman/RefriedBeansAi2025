@@ -18,11 +18,11 @@ This project implements an AI-powered distress signal detection system that comb
 
 ## Future Plans
 
-- **PPG Integration: Integrate heart rate monitoring through facial or wrist sensors to detect distress through physiological signals.
-- **Enhanced Data Training: Continuously improve the dataset with more real-world images, diverse scenarios, and edge cases.
-- **Expanded Movement Tracking: Add more advanced tracking algorithms to detect potential threats based on movement and posture.
-- **Real-time Location Sharing: Improve location-sharing features with more precise GPS tracking to provide better guidance to emergency responders.
-- **Victim/Criminal Descriptions: Implement a more sophisticated system for real-time description sharing with authorities, including physical details like clothing, height, and distinguishing features.
+- **PPG Integration**: Integrate heart rate monitoring through facial or wrist sensors to detect distress through physiological signals.
+- **Enhanced Data Training**: Continuously improve the dataset with more real-world images, diverse scenarios, and edge cases.
+- **Expanded Movement Tracking**: Add more advanced tracking algorithms to detect potential threats based on movement and posture.
+- **Real-time Location Sharing**: Improve location-sharing features with more precise GPS tracking to provide better guidance to emergency responders.
+- **Victim/Criminal Descriptions**: Implement a more sophisticated system for real-time description sharing with authorities, including physical details like clothing, height, and distinguishing features.
 
 ### Clone the Repository
 
@@ -31,7 +31,7 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
 Install dependencies
-pip install -r requirements.txt
+!pip install numpy pandas tensorflow keras matplotlib pydot
 
 Run detection script
 YOLOv8TRAIN.ipynb
