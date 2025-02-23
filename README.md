@@ -16,11 +16,13 @@ This project implements an AI-powered distress signal detection system that comb
 - **Location Sharing**: Shares the real-time location of the distress signal with local police for faster response.
 - **Expanded Data Training**: Continual improvement of the dataset through active learning, adding more data to enhance model accuracy and robustness.
 
-## Dataset
+## Future Plans
 
-The model is trained using a dataset created with Roboflow, containing images of distress hand gestures and facial expressions. The dataset will be continually updated with new images and real-world data for further model enhancement.
-
-## Installation
+- **PPG Integration: Integrate heart rate monitoring through facial or wrist sensors to detect distress through physiological signals.
+- **Enhanced Data Training: Continuously improve the dataset with more real-world images, diverse scenarios, and edge cases.
+- **Expanded Movement Tracking: Add more advanced tracking algorithms to detect potential threats based on movement and posture.
+- **Real-time Location Sharing: Improve location-sharing features with more precise GPS tracking to provide better guidance to emergency responders.
+- **Victim/Criminal Descriptions: Implement a more sophisticated system for real-time description sharing with authorities, including physical details like clothing, height, and distinguishing features.
 
 ### Clone the Repository
 
@@ -34,8 +36,6 @@ pip install -r requirements.txt
 Run detection script
 YOLOv8TRAIN.ipynb
 
-PPG Integration: Integrate heart rate monitoring through facial or wrist sensors to detect distress through physiological signals.
-Enhanced Data Training: Continuously improve the dataset with more real-world images, diverse scenarios, and edge cases.
-Expanded Movement Tracking: Add more advanced tracking algorithms to detect potential threats based on movement and posture.
-Real-time Location Sharing: Improve location-sharing features with more precise GPS tracking to provide better guidance to emergency responders.
-Victim/Criminal Descriptions: Implement a more sophisticated system for real-time description sharing with authorities, including physical details like clothing, height, and distinguishing features.
+## Dataset
+
+The model is trained using a dataset created with Roboflow, containing images of distress hand gestures and facial expressions. The dataset will be continually updated with new images and real-world data for further model enhancement.
