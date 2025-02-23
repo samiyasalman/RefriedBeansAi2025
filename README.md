@@ -10,11 +10,6 @@ This project implements an AI-powered distress signal detection system that comb
 - **Facial Emotion Detection**: Analyzes facial expressions to identify fear.
 - **Automated Emergency Call**: Initiates a 911 call when both distress signals (hand gesture and facial expression) are confirmed, using the Twilio API.
 - **YOLOv8 Model for Object Detection**: Utilizes the YOLOv8 model for accurate and real-time distress signal recognition.
-- **PPG (Photoplethysmography)**: Monitors heart rate and stress levels through facial or wrist sensors to detect signs of distress.
-- **Tracking Movement**: Tracks the subject's movement to assess if they are in a potentially dangerous or escalating situation.
-- **Victim and Criminal Description**: Sends real-time descriptions of the victim's and potential criminal's appearance to the authorities.
-- **Location Sharing**: Shares the real-time location of the distress signal with local police for faster response.
-- **Expanded Data Training**: Continual improvement of the dataset through active learning, adding more data to enhance model accuracy and robustness.
 
 ## Future Plans
 
