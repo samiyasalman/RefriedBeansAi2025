@@ -26,10 +26,6 @@ This project implements an AI-powered distress signal detection system that comb
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
 Install dependencies
 !pip install numpy pandas tensorflow keras matplotlib pydot
 
